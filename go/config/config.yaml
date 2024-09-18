@@ -1,0 +1,22 @@
+MySQL:
+  host: "127.0.0.1"
+  port: 3306
+  database: waf_backend_4
+  user: root
+  password: "lxz84458557"
+  charset: utf8mb4
+  loc: Asia/Shanghai
+  maxopenconns: 150
+  maxidleconns: 30
+  connmaxlifetime: 90
+Redis:
+  host: "127.0.0.1"
+  port: 6379
+  database: 4
+  user: ""
+  password: "lxzzasqq"
+  maxidleconns: 30
+  maxactiveconns: 150
+Kafka:
+  host: "127.0.0.1"
+  port: 9092
