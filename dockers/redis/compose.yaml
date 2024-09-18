@@ -1,0 +1,8 @@
+services:
+  redis:
+    image: redis:6.2.14
+    container_name: redis
+    restart: always
+    command: ["redis-server", "--requirepass", "lxzzasqq"]
+    ports:
+      - "6379:6379"

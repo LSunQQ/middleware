@@ -1,0 +1,10 @@
+services:
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    privileged: true
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - /opt/grafana-storage:/var/lib/grafana

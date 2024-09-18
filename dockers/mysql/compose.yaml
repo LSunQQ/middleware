@@ -1,0 +1,10 @@
+services:
+  mysql:
+    image: mysql:8.0.28
+    container_name: mysql
+    privileged: true
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: lxz84458557
+    ports:
+      - "3306:3306"
